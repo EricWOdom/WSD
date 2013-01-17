@@ -236,6 +236,26 @@ p.credits {
 	margin: auto;
 }
 
+#buyNow {
+	width: 960px;
+}
+
+#buyNow h1 {
+    display: block;
+    position: relative;
+    float: left;
+}
+
+#buyNow h4 {
+    display: inline-block;
+    position: relative;
+}
+
+#cta {
+	display: inline-block;
+	float: right;
+}
+
 #bodyContent {
 	width: 640px;
 	float: left;
