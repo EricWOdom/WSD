@@ -31,11 +31,13 @@ body {
 
 ::-moz-selection {
     background: #f79319;
+    color: #fff;
     text-shadow: none;
 }
 
 ::selection {
     background: #f79319;
+    color: #fff;
     text-shadow: none;
 }
 
@@ -96,13 +98,9 @@ textarea {
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:600italic,400,800,300,600,700);
 
 body {
-    font-family: 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
-    background-color: #F4F4F4;
-    font-style: normal;
-    font-weight: 400;
+	font: normal 400 16px/24px 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
     color: #4D4D4D;
-    line-height: 24px;
-    font-size: 16px;
 }
 
 blockquote {
@@ -114,8 +112,7 @@ blockquote {
     font-weight: 600;
     text-align: left;
     text-indent: 16px;
-    font-family: 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
-    color: #941C1E;
+    color: #941C1e;
 }
 
 h1 {
@@ -124,9 +121,8 @@ h1 {
     margin-bottom: 20px;
     font-style: normal;
     font-weight: 800;
-    font-family: 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
     text-transform: uppercase;
-    color: #F79319;
+    color: #f79319;
 }
 
 h2 {
@@ -137,15 +133,13 @@ h2 {
     letter-spacing: 0px;
     font-weight: 600;
     font-style: normal;
-    font-family: 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
-    color: #11A6AC;
+    color: #11a6ac;
 }
 
 h3 {
     font-style: normal;
     font-weight: 600;
-    font-family: 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
-    color: #11A6AC;
+    color: #11a6ac;
     font-size: 1.75em;
     line-height: 1.1em;
     margin-top: 20px;
@@ -155,7 +149,7 @@ h3 {
 h4 {
     font-size: 1.5em;
     line-height: 1.5em;
-    color: #11A6AC;
+    color: #11a6ac;
     font-weight: 600;
     font-style: normal;
 }
@@ -165,13 +159,13 @@ h5 {
     font-style: normal;
     font-size: 1.25em;
     line-height: 1.25em;
-    color: #11A6AC;
+    color: #11a6ac;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 h6 {
-    color: #11A6AC;
+    color: #11a6ac;
     font-size: 1.1em;
     line-height: 1.1em;
     margin-top: 20px;
@@ -185,7 +179,6 @@ p {
     text-indent: 16px;
     font-style: normal;
     font-weight: 400;
-    font-family: 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
     line-height: 24px;
     color: #4D4D4D;
     margin-top: 20px;
@@ -193,15 +186,15 @@ p {
 
 p a:link {
     text-decoration: none;
-    color: #F79319;
+    color: #f79319;
 }
 
 p a:visited {
-    color: #F79319;
+    color: #f79319;
 }
 
 p a:hover {
-    color: #11A6AC;
+    color: #11a6ac;
 }
 
 p.intro {
@@ -212,17 +205,15 @@ p.intro {
     font-style: normal;
     font-weight: 300;
     letter-spacing: 0px;
-    font-family: 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
-    color: #11A6AC;
+    color: #11a6ac;
 }
 
 p.first {
     text-indent: 0px;
     font-style: normal;
     font-weight: 400;
-    font-family: 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
     line-height: 24px;
-    color: #941C1E;
+    color: #941C1e;
 }
 
 p.footer {
@@ -230,10 +221,9 @@ p.footer {
     margin-bottom: 20px;
     font-size: 14px;
     letter-spacing: 1px;
-    color: #941C1E;
+    color: #941C1e;
     font-style: normal;
     font-weight: 300;
-    font-family: 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
 }
 
 p.credits {
