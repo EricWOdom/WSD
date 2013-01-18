@@ -312,6 +312,11 @@ li a:hover {
    Body Content
    ========================================================================== */
 
+#promoVid {
+	width: 960px;
+	height: 540px;
+}
+
 #mainContent {
 	width: 960px;
 	margin: auto;
@@ -319,7 +324,9 @@ li a:hover {
 
 #buyNow {
 	width: 960px;
+	position: relative;
 	height: 60px;
+	background: #12151a;
 }
 
 #buyNow h1 {
