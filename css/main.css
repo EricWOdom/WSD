@@ -271,7 +271,7 @@ nav li {
 	border-radius: 7px;
 }
 
-li a {
+nav li a {
 	color: #fff;
 	text-decoration: none;	
 	text-transform: uppercase;
@@ -296,7 +296,7 @@ li a {
 
 }
 
-li a:hover {
+nav li a:hover {
 	text-shadow: 0px -1px 1px rgba(0, 0, 0, 0.6);
 	background: #bf1a1d; /* Old browsers */
 	background: -moz-linear-gradient(top,  #bf1a1d 0%, #f02f34 100%); /* FF3.6+ */
@@ -393,9 +393,25 @@ li a:hover {
 }
 
 #sidebar {
-	width: 320px;
-	float: right;
-	background: rgba(77, 77, 77, 0.2);
+	width: 300px;
+float: right;
+background: rgba(18, 21, 26, 0.3);
+padding: 10px;
+position: relative;
+}
+
+#sidebar h3 {
+margin: 0;
+}
+
+#discography ul {
+padding: 0;
+}
+
+#discography li {
+list-style-type: none;
+float: left;
+padding: 10px;
 }
 
 /* ==========================================================================
