@@ -346,6 +346,7 @@ nav li a:hover {
 #cta {
 	display: inline-block;
 	float: right;
+	display: inline-table;
 	margin: 10px 0;
 }
 
@@ -390,6 +391,10 @@ nav li a:hover {
 	width: 640px;
 	float: left;
 }
+
+/* ==========================================================================
+   Sidebar
+   ========================================================================== */
 
 #sidebar {
 	width: 300px;
