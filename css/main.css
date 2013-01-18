@@ -103,7 +103,7 @@ textarea {
    
 body {
 	font: normal 400 16px/24px 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
-    background-color: #12151a;
+    background: #12151a url('images/bg.jpg') no-repeat left top;
     color: #4D4D4D;
 }
 
@@ -354,7 +354,7 @@ li a:hover {
 	line-height: 30px;
 	text-align: center;
 	padding: 5px 15px;
-	border: 1px solid #bf1a1d;
+	border: 1px solid #d87f13;
 	-webkit-border-radius: 7px;
 	-moz-border-radius: 7px;
 	border-radius: 7px;
