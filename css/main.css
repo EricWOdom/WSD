@@ -223,7 +223,7 @@ p.first {
 
 p.footer {
     text-indent: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 0;
     font-size: 14px;
     letter-spacing: 1px;
     color: #941C1e;
@@ -393,44 +393,54 @@ nav li a:hover {
 
 #sidebar {
 	width: 300px;
-float: right;
-background: rgba(18, 21, 26, 0.3);
-padding: 10px;
-position: relative;
+	float: right;
+	background: rgba(18, 21, 26, 0.3);
+	padding: 10px;
+	position: relative;
 }
 
 #sidebar h3 {
-margin: 0 0 10px 10px;
-width: 280px;
-float: left;
+	margin: 0 0 10px 10px;
+	width: 280px;
+	float: left;
 }
 
 #discography ul {
-padding: 0;
+	padding: 0;
 }
 
 #discography li {
-list-style-type: none;
-float: left;
-padding: 10px;
+	list-style-type: none;
+	float: left;
+	padding: 10px;
 }
 
 #gallery ul {
-margin: auto;
-padding: 0;
+	margin: auto;
+	padding: 0;
 }
 
 #gallery li {
-list-style-type: none;
-float: left;
-padding: 10px;
+	list-style-type: none;
+	float: left;
+	padding: 10px;
 }
 
 /* ==========================================================================
    Footer
    ========================================================================== */
-   
-   
+
+#stickyFooter {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -142px;
+}
+
+footer {
+	clear: both;
+	height: 142px;
+}
 
 /* ==========================================================================
    Helper classes
