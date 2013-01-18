@@ -97,6 +97,10 @@ textarea {
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:600italic,400,800,300,600,700);
 
+/* ==========================================================================
+   Main Styles (Body, H1, H2, H3, etc...)
+   ========================================================================== */
+   
 body {
 	font: normal 400 16px/24px 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
     background-color: #f4f4f4;
@@ -231,6 +235,38 @@ p.credits {
 	font-size: 12px;
 }
 
+/* ==========================================================================
+   Navigation
+   ========================================================================== */
+
+nav {
+	width: 600px;
+	padding: 0 0 0 300px;
+	font-size: .8em;
+}
+
+nav ul {
+	background: #ff0;
+	overflow: hidden;
+}
+
+nav li {
+	width: 140px;
+	float: left;
+}
+
+li a {
+	text-decoration: none;
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+
+/* ==========================================================================
+   Body Content
+   ========================================================================== */
+
 #mainContent {
 	width: 960px;
 	margin: auto;
@@ -264,7 +300,14 @@ p.credits {
 #sidebar {
 	width: 320px;
 	float: right;
+	background: rgba(77, 77, 77, 0.2);
 }
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+   
+   
 
 /* ==========================================================================
    Helper classes
