@@ -103,7 +103,7 @@ textarea {
    
 body {
 	font: normal 400 16px/24px 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
-    background: #12151a url('images/bg.jpg') no-repeat left top;
+    background: #12151a url('../images/bg.jpg') no-repeat left top;
     color: #4D4D4D;
 }
 
