@@ -413,8 +413,9 @@ nav li a:hover {
 	background: rgba(18, 21, 26, 0.3);
 }
 
+
 #signUpForm {
-	width: 38%;
+	width: 48%;
 	padding: 1%;
 	float: left;
 }
@@ -424,10 +425,33 @@ nav li a:hover {
 }
 
 #tracklist {
-	width: 58%;
+	width: 48%;
 	padding: 1%;
 	float: right;
 }
+
+table {
+	width: 100%;
+	font-size: .8em;
+	color: #b7b7b7;
+	background: rgba(18, 21, 26, 0.3);
+}
+
+thead {
+	text-align: left;
+	color: #11a6ac;
+	background: rgba(18, 21, 26, 0.8);
+}
+
+.even {
+	background: rgba(18, 21, 26, 0.5);
+}
+
+.track {
+	text-align: center;
+	color: #5f5f5f;
+}
+
 
 #bodyContent {
 	width: 66.666666666667%; /* 640px */

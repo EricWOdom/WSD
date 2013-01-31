@@ -37,6 +37,19 @@
     	<section id="formList">
     		<div id="signUpForm">
     			<p>Join Andy's mailing list to get instant access to the first single from <em>Heroes for Sale</em>.</p>
+    			<form class="signUpForm" name="signUpForm" method="get" enctype="multipart/form-data" action="mailto:ericwizkidodom@gmail.com">
+					<p><label>First Name:</label><input id="first-name" class="required" name="first-name" type="text" placeholder="Enter Your First Name" /></p>
+					<p><label>Last Name:</label><input id="last-name"  class="required" name="last-name" placeholder="Enter Your Last Name" type="text" /></p>
+					<p><label>Email:</label><input id="Email" placeholder="Enter Your Email Address" class="required" name="email" type="text" /></p><br>
+					<p><label>How Often Would You Like to be Emailed?</label>
+						<select name="frequency" id="frequency">
+							<option value="weekly">Weekly</option>
+							<option value="bi-monthly">Bi-Monthly</option>
+							<option value="monthly">Monthly</option>
+						</select>
+					</p>
+					<p id="submit"><a href="#">Privacy &amp; Security Policy</a><input type="submit" name="Join Mailing List"  value="Join Mailing List" /></p>
+				</form>
     		</div>
     		<div id="tracklist">
 				<table>
@@ -46,7 +59,7 @@
 								&nbsp;
 							</th>		  
 							<th>
-								Name
+								Title
 							</th>
 							<th>
 								Producer
