@@ -408,6 +408,27 @@ nav li a:hover {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d87f13', endColorstr='#ed8f15',GradientType=0 ); /* IE6-9 */
 }
 
+#formList {
+	width: 100%;
+	background: rgba(18, 21, 26, 0.3);
+}
+
+#signUpForm {
+	width: 38%;
+	padding: 1%;
+	float: left;
+}
+
+#signUpForm p {
+	margin: 0;
+}
+
+#tracklist {
+	width: 58%;
+	padding: 1%;
+	float: right;
+}
+
 #bodyContent {
 	width: 66.666666666667%; /* 640px */
 	float: left;
