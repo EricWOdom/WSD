@@ -287,7 +287,6 @@ nav ul {
 nav li {
 	float: right;
 	margin: 0 0 0 1.041666666667%; /* 0 0 0 10px */
-	background: #000;
 	border-radius: 7px;
 }
 
@@ -845,13 +844,20 @@ footer {
 		height: 100%;
 	}
 	
+	nav {
+		font-size: .75em;
+		margin: 0;
+		width: 97%;
+		position: absolute;
+	}
+	
 	#menu-icon {
 		display: block;
-		margin: 22px 0;
+		margin: 34px 0;
 		float: right;
 		color: #fff;
 		cursor: pointer;
-		font-size: 1.1em;
+		font-size: 2em;
 		text-decoration: none;
 		text-transform: uppercase;
 		text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.6);
@@ -886,23 +892,18 @@ footer {
 	#nav {
 		clear: both;
 		position: absolute;
-		top: 50px;
+		top: 62px;
 		right: 0;
-		width: 20%;
-		-webkit-border-radius: 7px;
-		-moz-border-radius: 7px;
-		border-radius: 7px;
+		font-size: 1.8em;
+		width: 50%;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
 		z-index: 99999;
-		padding: 5px;
-		border: 1px solid #d87f13;
+		padding: 0;
 		display: none;
 		float: right;
 		background: #db8213;
-	}
-	
-	nav {
-		font-size: .75em;
-		margin: 1% 0;
 	}
 	
 	nav ul {
@@ -911,19 +912,26 @@ footer {
 	}
 	
 	nav li {
-		float: none;
 		display: inline-block;
-		margin: 0 1%;
+		margin: 0;
 		background: none;
+		float: none;
+		width: 100%;
 		border-radius: 0;
 	}
 	
 	nav li a {
-		padding: 0;
 		margin: 0;
+		padding: 1% 3% 1% 0;
 		text-align: right;
+		width: 97%;
 		border: 0;
-		background: none;
+		background: transparent;
+		border-radius: 0;
+	}
+	
+	nav li a:hover {
+		background: #11a6ac;
 	}
 	
 	#buyNow {
@@ -987,7 +995,7 @@ footer {
 	}
 	
 	header {
-		padding: 10px 0;
+		padding: 0;
 		width: 98%;
 		height: 100%;
 		overflow: hidden;
@@ -996,12 +1004,19 @@ footer {
 	
 	#logo {
 		height: 100%;
-		margin: 3% 0;
+		margin: 0;
+	}
+	
+	nav {
+		font-size: .75em;
+		margin: 0;
+		width: 97%;
+		position: absolute;
 	}
 	
 	#menu-icon {
 		display: block;
-		margin: 22px 0;
+		margin: 17px 0 0;
 		float: right;
 		color: #fff;
 		cursor: pointer;
@@ -1038,12 +1053,19 @@ footer {
 	}
 	
 	#nav {
+		clear: both;
+		position: absolute;
+		top: 40px;
+		right: 0;
+		width: 22%;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		z-index: 99999;
+		padding: 5px;
 		display: none;
-	}
-	
-	nav {
-		font-size: .75em;
-		margin: 1% 0;
+		float: right;
+		background: #db8213;
 	}
 	
 	nav ul {
@@ -1051,9 +1073,25 @@ footer {
 		padding: 0;
 	}
 	
+	nav li {
+		display: inline-block;
+		margin: 0 1% 0 10%;
+		background: none;
+		float: right;
+		border-radius: 0;
+	}
+	
 	nav li a {
-		padding: 1px 4px;
-		margin: 3px 0;
+		padding: 0;
+		margin: 0;
+		text-align: right;
+		border: 0;
+		background: none;
+	}
+	
+	nav li a:hover {
+		
+		background: none;
 	}
 	
 	#buyNow {
