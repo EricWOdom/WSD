@@ -415,6 +415,7 @@ nav li a:hover {
 
 #signUpForm {
 	width: 48%;
+	height: 390px;
 	padding: 1%;
 	float: left;
 }
@@ -942,6 +943,18 @@ footer {
 		width: 100%;
 		float: none;
 	}
+	
+	#signUpForm {
+		width: 95%;
+		float: none;
+		height: 100%;
+	}
+		
+	#tracklist {
+		width: 98%;
+		padding: 1%;
+		float: none;
+	}	
 		
 	#bodyContent {
 		width: 95%;
