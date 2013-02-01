@@ -413,7 +413,6 @@ nav li a:hover {
 	background: rgba(18, 21, 26, 0.3);
 }
 
-
 #signUpForm {
 	width: 48%;
 	padding: 1%;
@@ -422,6 +421,109 @@ nav li a:hover {
 
 #signUpForm p {
 	margin: 0;
+}
+
+p.formField {
+	float: right;
+	width: 96%;
+	padding: 5px 0;
+	color: #11a6ac;
+}
+
+form {
+	margin:20px auto;
+}
+
+label {
+	width: 35%;
+	margin: 0 10px 0 0;
+	font: 300 .9em 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+}
+
+#first-name, #last-name, #email {
+	width: 63%;
+}
+
+.formField.email-push {
+	left: 34px;
+	position: relative;
+}
+
+/* Placeholder Text */
+	::-webkit-input-placeholder {
+	   color: #941C1e;
+	   font: 300 .85em 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+	}
+	:-moz-placeholder { /* Firefox 18- */
+	   color: #941C1e; 
+	   font: 300 .85em 'Open Sans', Verdana, Arial, Helvetica, sans-serif; 
+	}
+	::-moz-placeholder {  /* Firefox 19+ */
+	   color: #941C1e;  
+	   font: 300 .85em 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+	}
+	:-ms-input-placeholder {  
+	   color: #941C1e;  
+	   font: 300 .85em 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+	}
+/* Placeholder Text - Focus */	
+	:focus::-webkit-input-placeholder {
+	   color: transparent;
+	}
+	:focus:-moz-placeholder { /* Firefox 18- */
+	   color: transparent;
+	}
+	:focus::-moz-placeholder {  /* Firefox 19+ */
+	   color: transparent;
+	}
+	:focus:-ms-input-placeholder {  
+	   color: transparent;
+	}
+	
+p.formSelect {
+	color: #11a6ac;
+}
+
+p.submit {
+	margin: 30px 0 0 !important;
+}
+
+.privacyPolicy {
+	font-size: .7em;
+	margin: 0 2% 0 13%;
+}
+
+.button {
+	color: #fff;
+	font-size: .9em;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.6);
+	padding: 1.5% 2%;
+	border: 1px solid #d87f13;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	background: #ed8f15; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ed8f15 0%, #d87f13 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ed8f15), color-stop(100%,#d87f13)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ed8f15 0%,#d87f13 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ed8f15 0%,#d87f13 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ed8f15 0%,#d87f13 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ed8f15 0%,#d87f13 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ed8f15', endColorstr='#d87f13',GradientType=0 ); /* IE6-9 */
+}
+
+.button:hover {
+	text-shadow: 0px -1px 1px rgba(0, 0, 0, 0.6);
+	background: #d87f13; /* Old browsers */
+	background: -moz-linear-gradient(top,  #d87f13 0%, #ed8f15 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d87f13), color-stop(100%,#ed8f15)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #d87f13 0%,#ed8f15 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #d87f13 0%,#ed8f15 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #d87f13 0%,#ed8f15 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #d87f13 0%,#ed8f15 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d87f13', endColorstr='#ed8f15',GradientType=0 ); /* IE6-9 */
 }
 
 #tracklist {
