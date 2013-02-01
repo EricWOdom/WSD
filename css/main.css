@@ -268,6 +268,10 @@ header {
    Navigation
    ========================================================================== */
 
+#menu-icon {
+	display: none;
+}
+
 nav {
 	font-size: .8em; /* 12.8px */
 	display: block;
@@ -841,6 +845,35 @@ footer {
 		height: 100%;
 	}
 	
+	#menu-icon {
+		display: block;
+		margin: 22px 0;
+		float: right;
+		color: #fff;
+		font-size: 1.1em;
+		text-decoration: none;
+		text-transform: uppercase;
+		text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.6);
+		text-align: center;
+		padding: 5px 15px;
+		border: 1px solid #d87f13;
+		-webkit-border-radius: 7px;
+		-moz-border-radius: 7px;
+		border-radius: 7px;
+		background: #ed8f15;
+		background: -moz-linear-gradient(top, #ed8f15 0%, #d87f13 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ed8f15), color-stop(100%,#d87f13));
+		background: -webkit-linear-gradient(top, #ed8f15 0%,#d87f13 100%);
+		background: -o-linear-gradient(top, #ed8f15 0%,#d87f13 100%);
+		background: -ms-linear-gradient(top, #ed8f15 0%,#d87f13 100%);
+		background: linear-gradient(to bottom, #ed8f15 0%,#d87f13 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ed8f15', endColorstr='#d87f13',GradientType=0 );
+	}
+	
+	#nav {
+		display: none;
+	}
+	
 	nav {
 		font-size: .75em;
 		margin: 1% 0;
@@ -927,6 +960,10 @@ footer {
 	#logo {
 		height: 100%;
 		margin: 3% 0;
+	}
+	
+	#menu-icon {
+		display: block;
 	}
 	
 	nav {
