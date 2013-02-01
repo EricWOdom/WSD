@@ -22,6 +22,22 @@ jQuery(document).ready(function($){
 
 });
 </script>
+<script type="text/javascript">
+2
+$(document).ready(function(){
+3
+    var frames = document.getElementsByTagName("iframe");
+4
+    for (var i = 0; i < frames.length; i++) {
+5
+        frames[i].src += "?wmode=opaque";
+6
+    }
+7
+});
+8
+</script>
+
     </head>
     <body>
     <div id="mainContent">
@@ -44,9 +60,9 @@ jQuery(document).ready(function($){
     		<object width="960" height="540">
     		<param name="movie" value="http://www.youtube.com/v/n8HDGF4xzmk?hl=en_US&amp;version=3&amp;rel=0"></param>
     		<param name="allowFullScreen" value="true"></param>
-			<param name="wmode" value="opaque"/>
+			<param name="wmode" value="opaque"/></param>
     		<param name="allowscriptaccess" value="always"></param>
-    		<embed src="http://www.youtube.com/v/n8HDGF4xzmk?hl=en_US&amp;version=3&amp;rel=0" type="application/x-shockwave-flash" width="960" height="540" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+    		<embed wmode="opaque" src="http://www.youtube.com/v/n8HDGF4xzmk?hl=en_US&amp;version=3&amp;rel=0" type="application/x-shockwave-flash" width="960" height="540" allowscriptaccess="always" allowfullscreen="true"></embed></object>
     	</div>
     	<section id="buyNow">
     		<h1>Heroes For Sale</h1>
