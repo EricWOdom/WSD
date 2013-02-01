@@ -877,6 +877,10 @@ footer {
 		width: 100%;
 		float: none;
 	}
+	
+	#joinIntro {
+		margin: 1px auto 40px auto;
+	}
 		
 	#bodyContent {
 		width: 95%;
@@ -960,6 +964,22 @@ footer {
 	#cta {
 		width: 100%;
 		float: none;
+	}
+	
+	#albumArtwork {
+		float: none;
+		width: 95%;
+		margin: 0 auto;
+	}
+	
+	#joinIntro {
+		float: none;
+		width: 98%;
+		margin: 22px auto;
+	}
+	
+	form {
+		height: 160px;
 	}
 	
 	#signUpForm {
