@@ -1188,8 +1188,7 @@ footer {
 	Samsung Galaxy SII
 	==========================================================================*/
 	
-@media screen and (min-width: 320px)
-{
+@media screen and (max-width: 320px) {
 
 	body {
 		background: #000;
